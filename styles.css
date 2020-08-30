@@ -1,0 +1,26 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav
+.container{
+    align-items: center;
+    justify-content: center; 
+    padding: 40px 40px;
+}
+#table{
+    display:block;
+    background-color: rgb(33, 33, 82);
+    color: white;
+    }
+
+.tab{
+    margin-top: 30px;
+    padding-left: 40px;
+    }
+.cont{
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    }
