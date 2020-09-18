@@ -47,14 +47,14 @@ function GetLI(k)
             {
                 largepname = "Not Available";
             }
-            document.querySelector("#diseasename").textContent = x.name;
-            //document.querySelector("#id").textContent = x.id;
+            document.querySelector("#menuname").textContent = x.name;
+            document.querySelector("#id").textContent = x.id;
             document.querySelector("#sname").textContent = x.short_name;
-            document.querySelector("#mcs").textContent = descrp;
-            document.querySelector("#ss").textContent = psmall;
-            document.querySelector("#preven").textContent = x.price_large;
-            document.querySelector("#visit").textContent = smallpname;
-            document.querySelector("#test").textContent = largepname;
+            document.querySelector("#descp").textContent = descrp;
+            document.querySelector("#psmall").textContent = psmall;
+            document.querySelector("#plarge").textContent = x.price_large;
+            document.querySelector("#spname").textContent = smallpname;
+            document.querySelector("#lpname").textContent = largepname;
         }
         document.getElementById("table").style.display = "block";
     });
